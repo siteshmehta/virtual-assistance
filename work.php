@@ -382,7 +382,7 @@
 </html>
 <script>
     AOS.init({
-        delay: 200,
+        delay: 100,
     });
 </script>
 <?php
