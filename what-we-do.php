@@ -8,7 +8,7 @@
     <style>
     
     .header2{
-        background:linear-gradient(90deg, rgba(34,47,62,1) 0%, rgba(255,255,255,0) 100%), url("img/cofee.jpg") 50% 50% no-repeat;
+        background:linear-gradient(90deg, rgba(34,47,62,1) 0%, rgba(255,255,255,0) 100%), url("img/what_we_do.jpg") 50% 50% no-repeat;
         background-size:cover;
         position:relative;
         top:0;
@@ -79,7 +79,7 @@
         
         <div class="row justify-content-around p-5 text-center"> 
 
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left"  onclick="window.location.href='work.php?type=personal'" >
                 <div class="row">
                     <div class="col-12">
                         <i class="fas fa-chalkboard-teacher p-3 icons"></i> 
@@ -91,7 +91,7 @@
                 </div>    
             </div>
             
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up" onclick="window.location.href='work.php?type=social-media'" >
                 <div class="row">
                     <div class="col-12">
                         <i class="fas fa-icons p-3 icons"></i> 
@@ -103,7 +103,7 @@
                 </div>    
             </div>
             
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right" onclick="window.location.href='work.php?type=research'" >
                 <div class="row">
                     <div class="col-12">
                         <i class="fab fa-searchengin p-3 icons"></i> 
@@ -122,7 +122,7 @@
             
             <!--second row-->
             
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left" onclick="window.location.href='work.php?type=ecommerce'" >
                 <div class="row">
                     <div class="col-12">
                         <i class="fas fa-cart-plus p-3 icons"></i> 
@@ -134,7 +134,7 @@
                 </div>    
             </div>
              
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up"  onclick="window.location.href='work.php?type=project-manager'">
                 <div class="row">
                     <div class="col-12">
                         <i class="fas fa-industry p-3 icons"></i> 
@@ -146,7 +146,7 @@
                 </div>    
             </div>
             
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right" onclick="window.location.href='work.php?type=managing-finance'" >
                 <div class="row">
                     <div class="col-12">
                         <i class="fas fa-user-tie p-3 icons"></i> 
@@ -165,7 +165,7 @@
             
             <!--third row-->
             
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left" onclick="window.location.href='work.php?type=event'">
                 <div class="row">
                     <div class="col-12">
                         <i class="far fa-calendar-alt p-3 icons"></i> 
@@ -177,7 +177,7 @@
                 </div>    
             </div>
             
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up" onclick="window.location.href='work.php?type=email'">
                 <div class="row">
                     <div class="col-12">
                         <i class="far fa-envelope p-3 icons"></i> 
@@ -189,7 +189,7 @@
                 </div>    
             </div>
              
-            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right"   >
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right" onclick="window.location.href='work.php?type=travel'" >
                 <div class="row">
                     <div class="col-12">
                         <i class="fas fa-route p-3 icons"></i> 
@@ -201,8 +201,51 @@
                 </div>    
             </div>
             <div class="col-12">
+                <!--<br>-->
+            </div>
+            
+            
+            <!--fourth row-->
+            
+            <!--<div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-left" onclick="window.location.href='work.php?type=event'">-->
+            <!--    <div class="row">-->
+            <!--        <div class="col-12">-->
+            <!--            <i class="far fa-calendar-alt p-3 icons"></i> -->
+            <!--        </div>-->
+            <!--        <div class="col-12">-->
+            <!--            <br>-->
+            <!--            <font class="p-2 heading" style="font-size:17px">Event planning</font>-->
+            <!--        </div>-->
+            <!--    </div>    -->
+            <!--</div>-->
+            
+            <div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-up" onclick="window.location.href='work.php?type=website'">
+                <div class="row">
+                    <div class="col-12">
+                        <i class="fa fa-bug p-3 icons"></i> 
+                    </div>
+                    <div class="col-12">
+                        <br>
+                        <font class="p-2 heading" style="font-size:17px">Website Maintenance</font>
+                    </div>
+                </div>    
+            </div>
+             
+            <!--<div class="col-md-3 p-3 icons-box shadow-sm rounded mb-3" data-aos="flip-right" onclick="window.location.href='work.php?type=travel'" >-->
+            <!--    <div class="row">-->
+            <!--        <div class="col-12">-->
+            <!--            <i class="fas fa-route p-3 icons"></i> -->
+            <!--        </div>-->
+            <!--        <div class="col-12">-->
+            <!--            <br>-->
+            <!--            <font class="p-2 heading" style="font-size:17px">Travel Assistant</font>-->
+            <!--        </div>-->
+            <!--    </div>    -->
+            <!--</div>-->
+            <div class="col-12">
                 <br><hr>
             </div>
+            
             
             
         </div>
@@ -275,7 +318,5 @@
 </body>
 </html> 
 <script>
-    AOS.init({
-        delay: 100,
-    });
+    AOS.init();
 </script>

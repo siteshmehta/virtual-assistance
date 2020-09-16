@@ -39,10 +39,12 @@
                 
                     <p class="banner-secondary-text">
                         VS Virtual Assistant: a skilled asset who organizes your chaos.
+                        <br>
+                        Helping you to create, articulate and passionately own your vision.
                     </p>
                     <br>
                     
-                    <button type="button" class="read-more rounded-pill">Read More</button>
+                    <button type="button" class="read-more rounded-pill" onclick="window.location.href='about-us.php'" style="cursor:pointer;">Read More</button>
                     
                     
                 </h1>
@@ -51,21 +53,21 @@
     </div>
 
     <div class="container stripe" >
-        <div class="row justify-content-center shadow"  data-aos="fade-up" >
+        <div class="row justify-content-center shadow my-auto"  data-aos="fade-up" >
              
-             <div class="col-md-4  my-auto p-md-4 p-sm-0" style="background-color:#0f4c75" >
+             <div class="col-md-4 p-md-4 p-sm-0" style="background-color:#0f4c75;border-radius:1% 0% 0% 1%" >
                 <i class="far fa-calendar-alt stripe-icon"></i>
                 <span class="stripe-text">
                     Get back hours of time each week
                 </span>
              </div>
-             <div class="col-md-4 my-auto p-md-4 p-sm-0" style="background-color:#1c86cc" >
+             <div class="col-md-4 p-md-4 p-sm-0" style="background-color:#1c86cc" >
                 <i class="far fa-user-circle stripe-icon"></i>
                 <span class="stripe-text">
                     Outsource to someone you trust
                 </span>
              </div>
-             <div class="col-md-4 my-auto p-md-4 p-sm-0" style="background-color:#495057">
+             <div class="col-md-4 p-md-4 p-sm-0" style="background-color:#495057;border-radius:0% 1% 1% 0%">
                 <i class="fas fa-award stripe-icon"></i>
                 <span class="stripe-text">
                     Compound time savings into success
@@ -261,7 +263,7 @@
                  
              </div>
              <div class="col-md-4 my-auto  ">
-                 <img src="img/cofee.jpg" class="img-fluid rounded" data-aos="flip-left" />
+                 <img src="img/about_our_company.jpg" class="img-fluid rounded" data-aos="flip-left" />
              </div>
              <div class="col-md-2"></div>
         </div>
@@ -288,11 +290,11 @@
              
              <div class="col-md-2"></div>
              <div class="col-md-4 p-0 my-auto  ">
-                <img src="img/cofee.jpg" class="img-fluid shadow-sm " data-aos="flip-left" />
+                <img src="img/call_us.jpg" class="img-fluid shadow-sm rounded" data-aos="flip-left" />
              </div>
                
                
-             <div class="col-md-4 bg-light another-card my-auto shadow-lg p-5" data-aos="flip-right">
+             <div class="col-md-4 bg-light another-card my-auto shadow-lg p-5 rounded" data-aos="flip-right">
                  <font class="heading" style="font-size:20px">
                      Make an appoinment
                  </font>
@@ -301,8 +303,8 @@
                      FOR ANY INQUIRY
                  </p>
                  <p>
-                     <i class="fas fa-phone-alt"></i> &nbsp;+91-9699999999 <br>
-                     <i class="far fa-envelope-open"></i> &nbsp;help@VS.com
+                     <i class="fas fa-phone-alt"></i> &nbsp;+91-1234567890 <br>
+                     <i class="far fa-envelope-open"></i> &nbsp; mehtasitesh@gmail.com
                  </p>
                  
                   
@@ -438,7 +440,5 @@
     }
 });
 
-AOS.init({
-    delay: 100,
-});
+AOS.init();
 </script> 
