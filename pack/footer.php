@@ -30,11 +30,11 @@
             <font class="font-weight-bold">
                 Follow us
             </font><br>
-            <a class="footer-icon" href="tel:+18179849714"><img src="img/phone.png"></a> &nbsp;
-            <a class="footer-icon" href="https://www.facebook.com/VSvboons"><img src="img/facebook.png"></a> &nbsp; 
-            <a class="footer-icon" href="https://www.instagram.com/VSvs/"><img src="img/instagram.png" ></a> &nbsp;
-            <a class="footer-icon" href="mailto:pvirtualservices@gmail.com"><img src="img/email.png" ></a>  &nbsp;
-            <a class="footer-icon" href="https://www.linkedin.com/company/VSvs"><img src="img/linkedin.png"></a>  &nbsp;
+            <a class="footer-icon" href="#"><img src="img/phone.png"></a> &nbsp;
+            <a class="footer-icon" href="#"><img src="img/facebook.png"></a> &nbsp; 
+            <a class="footer-icon" href="#"><img src="img/instagram.png" ></a> &nbsp;
+            <a class="footer-icon" href="#"><img src="img/email.png" ></a>  &nbsp;
+            <a class="footer-icon" href="#"><img src="img/linkedin.png"></a>  &nbsp;
             
             
         </div> 
