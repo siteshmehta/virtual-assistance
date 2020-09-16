@@ -12,6 +12,17 @@ html::-webkit-scrollbar {
 html{
      -ms-overflow-style: none;  /* IE and Edge */
      scrollbar-width: none;
+} 
+.fullscreen-modal{
+    min-width: 95%;  
+}
+.fullscreen-modal .modal-content {
+    min-height: 95vh;
+}
+
+.logo{
+    font-family: 'Cookie', cursive;
+    font-size:40px;
 }
 .header{
     position:relative;
@@ -49,7 +60,7 @@ html{
  
 .stripe{
     position:relative;
-    transform:translate(0%,-50%);
+    transform:translate(0%,-50%); 
 }
 .stripe-text{
     font-weight:500;
@@ -76,8 +87,8 @@ html{
 }
 
 .another-card{
-    height:95%; 
-    margin-left:-5%;
+    height:100%; 
+    margin-left:-1%;
 } 
 .our-achievement{   
     text-align:center;
@@ -137,6 +148,15 @@ footer font{
  
  /*mobile*/
  @media only screen and (max-width: 970px){
+     .modal-title{
+         font-size:16px !important;
+     }
+    .fullscreen-modal .modal-content {
+        min-height: 95vh;
+    }
+     .logo{
+         font-size:30px;
+     }
      .header{
          height:160%;
          padding-top:100%;
