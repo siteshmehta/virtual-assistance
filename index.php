@@ -392,10 +392,10 @@
                                 there live the blind the texts Separated."</p>
                         </div>
                     </div>
-                        <img src="http://imuser.cf/wp-content/uploads/2020/09/Testimonial_img-2.jpeg" class="rounded-circle testimonial-image">
+<!--                         <img src="http://imuser.cf/wp-content/uploads/2020/09/Testimonial_img-2.jpeg" class="rounded-circle testimonial-image">
                         <p class="font-weight-bold" style="margin-top:-10%">Alex<br>
                             <font class="font-weight-normal text-secondary">CEO</font>
-                        </p>
+                        </p> -->
                 </div>
                 
                 <?php
